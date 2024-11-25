@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Татарские угощения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Пекарня "Татарские угощения"</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#order">Заказ</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Добро пожаловать в нашу пекарню!</h2>
+        <p>Предлагаем вам лучшие традиционные татарские выпечки.</p>
+    </section>
+    
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Наша пекарня готовит вкуснейшие татарские угощения по аутентичным рецептам.</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Меню</h2>
+        <ul>
+            <li>Эчпочмаки - 150 руб.</li>
+            <li>Бэлеши - 200 руб.</li>
+            <li>Кыстыбый - 120 руб.</li>
+            <li>Чак-чак - 180 руб.</li>
+        </ul>
+    </section>
+    
+    <section id="order">
+        <h2>Заказ онлайн</h2>
+        <form id="orderForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Адрес доставки:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="product">Выберите продукт:</label>
+            <select id="product" name="product" required>
+                <option value="echpochmak">Эчпочмак</option>
+                <option value="beleshi">Бэлеш</option>
+                <option value="kystybyi">Кыстыбый</option>
+                <option value="chak-chak">Чак-чак</option>
+            </select>
+            <label for="quantity">Количество:</label>
+            <input type="number" id="quantity" name="quantity" required min="1">
+            <button type="submit">Отправить заказ</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Адрес: Новосибирск, ул. Примерная, д. 1</p>
+        <p>Телефон: +7 (000) 000-0000</p>
+        <p>Email: info@tatarskie-ugoschenia.ru</p>
+    </section>
+    
+    <footer>
+        <p>© 2024 Пекарня "Татарские угощения". Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
